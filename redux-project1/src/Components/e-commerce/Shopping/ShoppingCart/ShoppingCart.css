@@ -1,0 +1,51 @@
+.shoppingCartHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22%;
+    padding-block: 15px;
+    
+}
+
+.headerLeft {
+    padding-top: 60px;
+}
+.headerHome {
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+.totalQuantity {
+    padding-top: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+}
+.totalingBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30%;
+    margin-bottom: 50px;
+}
+.componentOfTotal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-weight: bold;
+}
+.checkOutButton{
+    background-color: rgb(140, 231, 140);
+    padding: 10px;
+    color: white;
+    border: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,49 @@
+.singleCartItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    /* width: 60%; */
+}
+.itemImg {
+    width: 200px;
+    height:150px;
+}
+.itemDetails{
+    margin-block: 25px;
+    padding-bottom: 20px;
+    width: 20%;
+}
+.description{
+    margin-top: 15px;
+    max-width: 55ch;
+}
+.aboutItem{
+    margin-block: 10px;
+}
+
+.quantityText{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: rgb(230, 228, 228);
+    border:rgb(230, 228, 228);
+}
+.deleteButton {
+    width: 30px;
+    height: 30px;
+    /* border-radius: 50%; */
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: red;
+    border:rgb(230, 228, 228);
+    background-color: rgb(230, 228, 228);
+ cursor: pointer;
+}
+hr{
+    width: 40.5%;
+    margin-inline: auto;
+}

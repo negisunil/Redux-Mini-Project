@@ -1,0 +1,40 @@
+.singleProduct {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px;
+    
+}
+
+.productImg {
+    width: 100%;
+}
+.productInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cartInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding:10px;
+}
+.button {
+    padding: 20px;
+    width: 20px;
+    height: 20px;
+    background-color: grey;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.quantity{
+    font-size: 2rem;
+}
